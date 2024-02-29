@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#general{
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    background-color: lightgreen;    
+}
+#relleno{
+    width: auto;
+    height: 15px;
+}
+#caja-uno{
+    width: 560px;
+    height: 250px;
+    margin: auto;
+    background-color: lightsalmon;
+    text-align: center;
+}
+
+#caja-dos{
+    width: 560px;
+    height: 150px;
+    margin: 15px auto;
+    background-color: lightskyblue;    
+}
+#caja-tres{
+    width: 250px;
+    height: 200px;
+    /* margin: auto; */
+    margin: 0px 20px;
+    background-color: yellow;
+    float: left;
+}
+#caja-cuatro{
+    width: 250px;
+    height: 200px;
+    /* margin: auto; */
+    margin: 0px 20px;
+    background-color: lightcoral;        
+    float: right;
+}
+.cara-forma{
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    background-color: lightsalmon;
+    border: 1px solid black;
+    border-radius: 50%;        
+}
+.relleno-ojo1{
+    width: 100px;
+    height: 200px;
+    margin: 100px 0px;
+    float: left;
+}
+.ojo-uno{
+    width: 150px;
+    height: 150px;
+    margin: 120px 0px;
+    float: left;
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.relleno-ojo2{
+    width: 100px;
+    height: 200px;
+    margin: 100px 0px;
+    float: right;
+}
+.ojo-dos{
+    width: 150px;
+    height: 150px;
+    margin: 120px 0px ;
+    
+    float: right;
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;  
+}
+.relleno-2{
+    width: auto;
+    height: 220px;
+}
+.nariz{
+    width: 100px;
+    height: 100px ;
+    margin: 30px auto;
+    background-color: lightcoral;
+    border: 1px solid black;
+    border-radius: 50%;        
+    text-align: center; 
+}
+.boca{
+    width: 350px;
+    height: 120px;
+    margin: 10px auto;
+    background-color: lightyellow;
+    border: 1px solid black;
+    border-radius: 50%;        
+    text-align: center; 
+}
+p{
+    margin: 15px auto;
+    text-align: center;
+}
